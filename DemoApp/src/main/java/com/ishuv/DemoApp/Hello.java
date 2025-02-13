@@ -8,6 +8,7 @@ public class Hello {
 
     @RequestMapping("/")
     public String greet(){
+        system.out.println("Hello everyone");
         return "Hello World, welcome to Ishuv";
     }
 }
